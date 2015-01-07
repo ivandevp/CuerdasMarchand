@@ -1,0 +1,41 @@
+
+body{
+    background-image: url("../images/fondo/FONDO.JPG");
+}
+
+section#HOLA{
+
+background:rgba(0, 0, 0, 0.8);
+  color: #FFFFFF;
+  padding: 30px;
+  position: relative;
+  margin-top: 128px;
+}
+
+div#contenedor div#MODIFICADA_BRAVA{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 800px;
+    margin:0 auto;
+    margin-top: 30px;
+    min-height: 450px;
+    border-radius: 20px;
+    box-shadow:2px 2px 30px black,
+                -2px -2px 30px black;
+     overflow: hidden;
+}
+
+
+div#contenedor div#MODIFICADA_BRAVA div {
+   position: absolute;
+    display: inline;
+   left: 0px; 
+   top:0px;
+ 
+}
+div#contenedor div#MODIFICADA_BRAVA div img{
+    width: 800px;
+    position: absolute;
+   
+}
