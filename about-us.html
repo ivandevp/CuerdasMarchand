@@ -100,11 +100,11 @@
   						<div class="col-sm-12">
   							<ul class="members">
   								<li>
-										<img id="img1" src="images/about-us/victorpiano1.jpg" alt="" onclick="openPopUp()">
-										<p>Víctor Marchand<span>Director Musical</span></p>
+									<img id="img1" src="images/about-us/victorpiano1.jpg" alt="" onClick="openPopUp();">
+									<p>Víctor Marchand<span>Director Musical</span></p>
 			  					</li>
 			  					<li>
-			  						<img id="img2" src="images/about-us/member2.jpg" alt="">
+			  						<img id="img2" src="images/about-us/member2.jpg" alt="" onClick="openas();">
 			  						<p>Judith Acevedo<span>Violin</span></p>
 			  					</li>
 			  					<li>
@@ -207,26 +207,24 @@
     <script type="text/javascript" src="js/switcher.js"></script>
 	<script type="text/javascript" src="js/about.js"></script>
 </body>
-<div class="content" >
-					<div id="capa" class="capa" style="display:none"></div>
-					<div id="popup" class="popup" style="display:none; position: fixed;">
-						<div class="content-data">
-							<div>
-								<a onclick="closePopUp();" align="center">X</a>
-							</div>
-							<img id="img1" src="images/about-us/victorpiano2.jpg" alt="" 
-								onmouseover="cambiaTamano(this.name,50,50);"
-								onmouseout = "cambiaTamano(this.name,100,100);"
-								/>
-							<div id="data">
-								<h2>Victor Marchand</h2>
-								<p align="justify">
-								Víctor Marchand cursó estudios musicales de piano, armonía y contrapunto en el Instituto Musical Bach y el Conservatorio Nacional de Música. Con más de cuarenta años de trayectoria, ha colaborado como integrante de los "Violines de Lima" (1972), director musical de la disquera IEMPSA (1980-1986), así como pianista y arreglista del coro "Los Toribianitos". Ha aprticipado en orquestas de cámara en Perú y México, así como en giras con diversos grupos musicales por los Estados Unidos, Argentina, Chile, Panamá y Japón.
-								<br>Ha sido arreglista de producciones musicales con la Orquesta Filarmónica y Latinoamericana. Asimismo, ha trabajado en diversos festivales como la OTI Internacional y para diversas producciones de radio y televisión en lo que ha musicalización se refiere.
-								</p>
-							</div>
-							
-						</div>	
-					</div>
+
+	<div class="content" >
+		<div id="capa" class="capa" style="display:none"></div>
+		<div id="popup" class="popup" style="display:none; position: fixed;">
+			<div class="content-data">
+				<div>
+					<a onclick="closePopUp();" align="center"><img src="images/about-us/cancel.png"
+						width="50" height="50" border="0"></a>
+				</div>
+				<img id="imgCapa1" src="images/about-us/victorpiano2.jpg" alt="" />
+				<div id="data">
+					<h2>Victor Marchand</h2>
+					<p align="justify">
+					Víctor Marchand cursó estudios musicales de piano, armonía y contrapunto en el Instituto Musical Bach y el Conservatorio Nacional de Música. Con más de cuarenta años de trayectoria, ha colaborado como integrante de los "Violines de Lima" (1972), director musical de la disquera IEMPSA (1980-1986), así como pianista y arreglista del coro "Los Toribianitos". Ha aprticipado en orquestas de cámara en Perú y México, así como en giras con diversos grupos musicales por los Estados Unidos, Argentina, Chile, Panamá y Japón.
+					<br>Ha sido arreglista de producciones musicales con la Orquesta Filarmónica y Latinoamericana. Asimismo, ha trabajado en diversos festivales como la OTI Internacional y para diversas producciones de radio y televisión en lo que ha musicalización se refiere.
+					</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </html>
