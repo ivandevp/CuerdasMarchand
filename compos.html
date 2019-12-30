@@ -5,26 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Vocal | About-Us</title>
+    <title>Vocal | 404 Error </title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">    
     <link href="css/prettyPhoto.css" rel="stylesheet"> 
     <link href="css/sc-player-standard.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-	<link href="css/about.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/presets/preset1.css" id="preset" rel="stylesheet" type="text/css">
     <link href="css/switcher.css" rel="stylesheet" type="text/css">
 
     <!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-		<script src="js/respond.min.js"></script>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
     <![endif]-->       
     <link rel="shortcut icon" href="images/ico/favicon.html">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.html">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.html">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.html">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.html">
+
 </head><!--/head-->
 
 <body>
@@ -46,8 +46,15 @@
                 <div class="col-sm-9">
                   <nav class="navbar-right collapse navbar-collapse">
                         <ul class="nav navbar-nav">                                                                     
-                            <li><a href="index-2.html">Inicio</a></li>
-                            <li><a href="#">Nosotros</a></li>                         
+                            <li><a href="index-2.html">Home</a></li>
+                            <li class="dropdown"><a class="active" href="#">Organización<i class="fa fa-angle-down"></i></a>
+                                <ul role="menu" class="sub-menu">
+                                    <li><a class="active" href="about-us.html">Acerca de</a></li>
+									<li><a href="director.html">Director</a></li>
+                                    <li><a href="compos.html">Composición</a></li>
+									<li><a href="services.html">Servicios</a></li>
+                                </ul>
+                            </li>                         
                             <li class="dropdown"><a href="#">Event<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
                                         <li><a href="latest-events.html">Events List</a></li>
@@ -71,61 +78,65 @@
         </div>
     </header> <!--/#navigation-->
 
-  	<div id="about-us">
+	
+    <div id="compos-page">
   		<div class="container">
-  			<div class="bg">
-  				<div class="about">
-  					<h2 class="heading"><strong>"Cuerdas Marchand"</strong></h2>
-  					<div class="row">  					
-		  				<div class="col-sm-7">
-		  					<img src="images/about-us/nosotros.jpg" alt="">
-		  				</div>
-		  				<div class="col-sm-5">
-		  					<div class="about-content">
-		  						<h2>Quiénes somos</h2>
-			  					<p align="justify">
-									"Cuerdas Marchand" es un conjunto conformado por músicos profesionales de amplia trayectoria y renombre local e internacional, unidos con la finalidad de ofrecer un acompañamiento musical de calidad y conforme a las expectativas del público más selecto.
-								</p> 
+		    <div class="bg">
+  				<div class="compos-main">
+  					<h2 class="heading" align="center"><strong>Director Musical</strong></h2>
+					<h4 class="heading"><strong>Víctor Marchand</strong></h4>
+  					<div class="row">
+						<div class="col-sm-5">					
+							<div class="compos-content">
 								<p align="justify">
-									Nuestro amplio repertorio abarca diversos géneros, tanto dentro del ámbito clásico como popular, siendo reconocidos en la escena musical por un particular estilo e interpretación festiva, cálida, dinámica y llena de energía, marcando diferencia con otras agrupaciones.
+									Cursó estudios musicales de piano, armonía y contrapunto en el Instituto Musical Bach y el Conservatorio Nacional de Música.
+									Con más de cuarenta años de trayectoria, ha colaborado como integrante de los "Violines de Lima" (1972), director musical de la disquera IEMPSA (1980-1986), así como pianista y arreglista del coro "Los Toribianitos". Ha participado en orquestas de cámara en Perú y México, así como en giras con diversos 
+									grupos musicales por los Estados Unidos, Argentina, Chile, Panamá y Japón.
+									<br><br>Ha sido arreglista de producciones musicales con la Orquesta Filarmónica y Latinoamericana.
+									Asimismo, ha trabajado en diversos festivales como la OTI Internacional y para diversas producciones de radio y televisión en lo que ha musicalización se refiere.
 								</p>
-		  					</div>		  					
-		  				</div>
+							</div>
+						</div>
+						<div class="col-sm-7">
+								<img src="images/about-us/team.jpg" alt="">
+						</div>
 	  				</div> 
-  				</div>
-  				
+				</div>	
+					
   				<div id="team-member">
   					<h1>Integrantes</h1>
   					<div class="row">
   						<div class="col-sm-12">
   							<ul class="members">
   								<li>
-									<img id="img1" src="images/about-us/victorpiano1.jpg" alt="" onClick="openPopUp();">
-									<p>Víctor Marchand<span>Director Musical</span></p>
+			  						<img src="images/about-us/member1.jpg" alt="">
+			  						<p>Víctor Marchand<span>Director Musical</span></p>
 			  					</li>
 			  					<li>
-			  						<img id="img2" src="images/about-us/member2.jpg" alt="" onClick="openas();">
+			  						<img src="images/about-us/member2.jpg" alt="">
 			  						<p>Judith Acevedo<span>Violin</span></p>
 			  					</li>
 			  					<li>
-			  						<img id="img3" src="images/about-us/member3.jpg" alt="">
+			  						<img src="images/about-us/member3.jpg" alt="">
 			  						<p>Maria Elena Pacheco<span>Violin</span></p>
 			  					</li>
 			  					<li>
-			  						<img id="img4" src="images/about-us/member4.jpg" alt="">
+			  						<img src="images/about-us/member4.jpg" alt="">
 			  						<p>María Foust<span>Violin</span></p>
 			  					</li>
 			  					<li>
-			  						<img id="img5" src="images/about-us/member5.jpg" alt="">
+			  						<img src="images/about-us/member5.jpg" alt="">
 			  						<p>Alex Sarrín<span>Percusión</span></p>
 			  					</li>
   							</ul>	
   						</div>  										
   					</div>
-  				</div>
-				<!--/#About Us-->
-
-   	<footer id="footer-wrapper">
+  				</div> 
+			</div>
+		</div>
+	</div>
+	
+	<footer id="footer-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -177,26 +188,10 @@
             </div>
         </div>    
     </footer><!--/#footer-widget-->
-
-    <!-- Style Chooseer -->
-    <div class="style-chooser">
-        <div class="style-chooser-inner">
-            <a href="#" class="toggoler hide-icon">show-hide-button</a>
-              <ul class="preset-list">
-                  <h4 class="">Preset Color</h4>
-                  <li><a href="#" data-color="preset1"><img src="switcher/preset1.png" alt="Preset 1"></a></li>
-                  <li><a href="#" data-color="preset2"><img src="switcher/preset2.png" alt="Preset 2"></a></li>
-                  <li><a href="#" data-color="preset3"><img src="switcher/preset3.png" alt="Preset 3" class=""></a></li>        
-                  <li><a href="#" data-color="preset4"><img src="switcher/preset4.png" alt="Preset 4"></a></li>
-                  <li><a href="#" data-color="preset5"><img src="switcher/preset5.png" alt="Preset 5"></a></li>
-                  <li><a href="#" data-color="preset6"><img src="switcher/preset6.png" alt="Preset 6"></a></li>
-              </ul>
-        </div>
-    </div> <!--/.style-chooser -->
 	
-				
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/switcher.js"></script>
     <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
     <script type="text/javascript" src="js/jquery.fitvids.js"></script>
     <script type="text/javascript" src="js/soundcloud.player.api.js"></script>
@@ -204,27 +199,6 @@
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/coundown-timer.js"></script>
     <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
-    <script type="text/javascript" src="js/switcher.js"></script>
-	<script type="text/javascript" src="js/about.js"></script>
+    
 </body>
-
-	<div class="content" >
-		<div id="capa" class="capa" style="display:none"></div>
-		<div id="popup" class="popup" style="display:none; position: fixed;">
-			<div class="content-data">
-				<div>
-					<a onclick="closePopUp();" align="center"><img src="images/about-us/cancel.png"
-						width="50" height="50" border="0"></a>
-				</div>
-				<img id="imgCapa1" src="images/about-us/victorpiano2.jpg" alt="" />
-				<div id="data">
-					<h2>Victor Marchand</h2>
-					<p align="justify">
-					Víctor Marchand cursó estudios musicales de piano, armonía y contrapunto en el Instituto Musical Bach y el Conservatorio Nacional de Música. Con más de cuarenta años de trayectoria, ha colaborado como integrante de los "Violines de Lima" (1972), director musical de la disquera IEMPSA (1980-1986), así como pianista y arreglista del coro "Los Toribianitos". Ha aprticipado en orquestas de cámara en Perú y México, así como en giras con diversos grupos musicales por los Estados Unidos, Argentina, Chile, Panamá y Japón.
-					<br>Ha sido arreglista de producciones musicales con la Orquesta Filarmónica y Latinoamericana. Asimismo, ha trabajado en diversos festivales como la OTI Internacional y para diversas producciones de radio y televisión en lo que ha musicalización se refiere.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
 </html>

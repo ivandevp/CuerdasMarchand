@@ -35,3 +35,5 @@ jQuery(function($) {'use strict',
 	// responsive video
 	$(".single-event").fitVids();
 });
+
+
